@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-customize {
+    font-size: 2vw;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar-customize:hover {
+    text-decoration: none;
+    color: #e9eced;
+}
+
+.header {
+    text-align: center;
+}
+
+.about-me-p {
+    line-height: 200%;
+    letter-spacing: 1px;
+}

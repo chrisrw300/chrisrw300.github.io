@@ -4,9 +4,104 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://use.fontawesome.com/901a06f963.js"></script>
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <title>Chris Walston</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <header>
+            <!--NAVBAR-->
+            <nav class="d-flex navbar navbar-expand-lg bg-dark justify-content-center align-middle p-2">
+                <a href="./index.html" class="navbar-brand">
+                    <svg width="3em" height="auto" viewBox="0 0 16 16" class="bi bi-bug m-0" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4.355.522a.5.5 0 0 1 .623.333l.291.956A4.979 4.979 0 0 1 8 1c1.007 0 1.946.298 2.731.811l.29-.956a.5.5 0 1 1 .957.29l-.41 1.352A4.985 4.985 0 0 1 13 6h.5a.5.5 0 0 0 .5-.5V5a.5.5 0 0 1 1 0v.5A1.5 1.5 0 0 1 13.5 7H13v1h1.5a.5.5 0 0 1 0 1H13v1h.5a1.5 1.5 0 0 1 1.5 1.5v.5a.5.5 0 1 1-1 0v-.5a.5.5 0 0 0-.5-.5H13a5 5 0 0 1-10 0h-.5a.5.5 0 0 0-.5.5v.5a.5.5 0 1 1-1 0v-.5A1.5 1.5 0 0 1 2.5 10H3V9H1.5a.5.5 0 0 1 0-1H3V7h-.5A1.5 1.5 0 0 1 1 5.5V5a.5.5 0 0 1 1 0v.5a.5.5 0 0 0 .5.5H3c0-1.364.547-2.601 1.432-3.503l-.41-1.352a.5.5 0 0 1 .333-.623zM4 7v4a4 4 0 0 0 3.5 3.97V7H4zm4.5 0v7.97A4 4 0 0 0 12 11V7H8.5zM12 6H4a3.99 3.99 0 0 1 1.333-2.982A3.983 3.983 0 0 1 8 2c1.025 0 1.959.385 2.666 1.018A3.989 3.989 0 0 1 12 6z"/>
+                    </svg>
+                </a>
+                <div class="navbar-nav">
+                    <a href="#about-me" class="m-2 navbar-customize">About Me</a>
+                    <a href="#portfolio" class="m-2 navbar-customize">Portfolio</a>
+                    <a href="#contact-me" class="m-2 navbar-customize">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+
+            <!--JUMBOTRON-->
+            <div class="jumbotron jumbrotron-fluid" style="height: 500px;">
+                <div class="container-fluid text-center">
+                    <h1 class="display-1">Welcome.</h1>
+                    <hr class="my-4">
+                    <p class="lead">For a quick overview of my work, please visit my <a href="https://github.com/chrisrw300" target="_blank">GitHub profile</a></p>
+                </div>
+                
+            </div>
+        
+            <!--ABOUT ME-->
+            <div class="header p-1 m-1" id="#about-me">
+                <h2>About Me</h2>
+            </div>
+            <hr class="my-4">
+            <div class="container-fluid mb-2">
+                <div class="row">
+                    <div class="col col-3">
+                        <img src="./assets/img/chris.jpg" class="img-thumbnail" alt="chris walston">
+                    </div>
+                    <div class="col col-9 about-me-p">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </p>
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://github.com/chrisrw300" target="_blank"><button type="button" class="btn btn-dark btn-block m-1">GitHub</button></a>
+                                <a href="https://www.linkedin.com/in/christopher-walston-a18614175/" target="_blank"><button type="button" class="btn btn-dark btn-block m-1">LinkedIn</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--PORTFOLIO-->
+            <div class="header p-1 m-1" id="portfolio">
+                <h2>Portfolio</h2>
+            </div>
+            <hr class="my-4">
+            <div class="container-fluid bg-dark m-1">
+                <div class="row">
+                    <div class="col col-6 p-2">
+                        <a href="https://github.com/chrisrw300/daily-scheduler">
+                            <img src="./assets/img/work-day-scheduler.png" style="height: auto; width: 95%;" alt="">
+                        </a>
+                    </div>
+                    <div class="col col-3">
+                        <a href="https://github.com/chrisrw300/daily-scheduler">
+                            <img src="./assets/img/work-day-scheduler.png" class="mt-2" style="height: auto; width: 100%;" alt="">
+                        </a>
+                        <a href="https://github.com/chrisrw300/daily-scheduler">
+                            <img src="./assets/img/work-day-scheduler.png" class="mt-1" style="height: auto; width: 100%;" alt="">
+                        </a>
+                    </div>
+                    <div class="col col-3">
+                        <a href="https://github.com/chrisrw300/daily-scheduler" class="">
+                            <img src="./assets/img/work-day-scheduler.png" class="mt-2" style="height: auto; width: 100%;" alt="">
+                        </a>
+                        <a href="https://github.com/chrisrw300/daily-scheduler">
+                            <img src="./assets/img/work-day-scheduler.png" class="mt-1" style="height: auto; width: 100%;" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
