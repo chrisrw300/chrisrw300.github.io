@@ -22,3 +22,22 @@
     line-height: 200%;
     letter-spacing: 1px;
 }
+
+/*PORTFOLIO STYLES*/
+.carousel-styles {
+    padding: 30px;
+    margin: 0 auto;
+}
+.carousel-styles img {
+    height: auto;
+    width: 100%;
+    margin: 5px;
+}
+.carousel-item {
+    text-align: center;
+}
+.portfolio-link {
+    background: lightgray;
+    padding: 5px 150px;
+    margin: 5px 20px;
+}
