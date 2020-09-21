@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 .navbar-customize {
     font-size: 2vw;
     color: white;
@@ -11,16 +10,34 @@
 
 .navbar-customize:hover {
     text-decoration: none;
-    color: #e9eced;
+    color: #007bff;
+}
+
+.section-header {
+    text-align: center;
+    width: 50%;
+    padding-bottom: 5px;
+    margin: 10px auto;
+    border-bottom: thin solid black;
 }
 
 .header {
     text-align: center;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .about-me-p {
     line-height: 200%;
     letter-spacing: 1px;
+}
+.skill-btn {
+    width: 100%;
+}
+.collapse {
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
 }
 
 /*PORTFOLIO STYLES*/
@@ -31,13 +48,64 @@
 .carousel-styles img {
     height: auto;
     width: 100%;
-    margin: 5px;
+    margin: 0;
+    padding: 5px 15px;
 }
 .carousel-item {
     text-align: center;
 }
+.carousel-control-next {
+    width: 5%;
+    height: 100%;
+    margin: auto 0;
+    background: black;
+    opacity: 0.2;
+}
+.carousel-control-next-icon {
+    color: white;
+}
+.carousel-control-next:hover {
+    background: black;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.carousel-control-next:focus {
+    background: black;
+    opacity: 0.2;
+}
+.carousel-control-prev {
+    width: 5%;
+    height: 100%;
+    margin: auto 0;
+    background: black;
+    opacity: 0.2;
+}
+.carousel-control-prev-icon {
+    color: black;
+}
+.carousel-control-prev:hover {
+    background: black;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.carousel-control-prev:focus {
+    background: black;
+    opacity: 0.2;
+}
 .portfolio-link {
     background: lightgray;
-    padding: 5px 150px;
-    margin: 5px 20px;
+    margin: 15px;
+    padding: 5px 100px;
+    border-radius: 25px;
+}
+.portfolio-link:hover {
+    text-decoration: none;
+}
+/*footer*/
+.page-footer {
+    background: #e9ecef;
+    padding: 5px 15px;
+}
+.page-footer h2 {
+    text-align: center;
 }
