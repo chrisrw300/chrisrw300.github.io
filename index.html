@@ -5,211 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
         <script src="https://use.fontawesome.com/901a06f963.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="./assets/css/styles.css">
         <title>Chris Walston</title>
     </head>
-    <body class="bg-dark">
-        <header>
-            <!--NAVBAR-->
-            <nav class="d-flex navbar navbar-expand-lg bg-dark justify-content-center align-middle p-2">
-                <a href="./index.html" class="navbar-brand">
-                    <svg width="3em" height="auto" viewBox="0 0 16 16" class="bi bi-bug m-0" fill="white" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M4.355.522a.5.5 0 0 1 .623.333l.291.956A4.979 4.979 0 0 1 8 1c1.007 0 1.946.298 2.731.811l.29-.956a.5.5 0 1 1 .957.29l-.41 1.352A4.985 4.985 0 0 1 13 6h.5a.5.5 0 0 0 .5-.5V5a.5.5 0 0 1 1 0v.5A1.5 1.5 0 0 1 13.5 7H13v1h1.5a.5.5 0 0 1 0 1H13v1h.5a1.5 1.5 0 0 1 1.5 1.5v.5a.5.5 0 1 1-1 0v-.5a.5.5 0 0 0-.5-.5H13a5 5 0 0 1-10 0h-.5a.5.5 0 0 0-.5.5v.5a.5.5 0 1 1-1 0v-.5A1.5 1.5 0 0 1 2.5 10H3V9H1.5a.5.5 0 0 1 0-1H3V7h-.5A1.5 1.5 0 0 1 1 5.5V5a.5.5 0 0 1 1 0v.5a.5.5 0 0 0 .5.5H3c0-1.364.547-2.601 1.432-3.503l-.41-1.352a.5.5 0 0 1 .333-.623zM4 7v4a4 4 0 0 0 3.5 3.97V7H4zm4.5 0v7.97A4 4 0 0 0 12 11V7H8.5zM12 6H4a3.99 3.99 0 0 1 1.333-2.982A3.983 3.983 0 0 1 8 2c1.025 0 1.959.385 2.666 1.018A3.989 3.989 0 0 1 12 6z"/>
-                    </svg>
-                </a>
-                <div class="navbar-nav">
-                    <a href="#about-me" class="m-2 navbar-customize">About Me</a>
-                    <a href="./index.html#qualifications" class="m-2 navbar-customize">Qualifications</a>
-                    <a href="./index.html#portfolio" class="m-2 navbar-customize">Portfolio</a>
-                    <a href="./index.html#contact-me" class="m-2 navbar-customize">Contact</a>
-                </div>
-            </nav>
-        </header>
-        <main>
-
-            <!--JUMBOTRON-->
-            <div class="jumbotron jumbrotron-fluid" style="height: 500px;">
-                <div class="container-fluid text-center">
-                    <h1 class="display-1">Welcome.</h1>
-                    <hr class="my-4">
-                    <p class="lead">For a quick overview of my work, please visit my <a href="https://github.com/chrisrw300" target="_blank">GitHub profile</a></p>
-                </div>
+    <body>
+        <div class="row">
+            <div class="col-sm-12 col-md-7 col=lg-7 jumbo-header-wrapper">
+                <h1 class="jumbo-header">Chris <br> Walston</h1>
             </div>
-        
-            <!--ABOUT ME-->
-            <div class="card m-5">
-                <div class="p-1 m-1" >
-                    <h2 class="section-header">About Me</h2>
-                </div>
-                <div class="container-fluid mb-2" id="#about-me">
-                    <div class="row">
-                        <div class="col col-3">
-                            <img src="./assets/img/chris.jpg" class="img-thumbnail" alt="chris walston">
-                        </div>
-                        <div class="col col-9 about-me-p">
-                            <p>
-                                My name is Chris Walston! 
-                                <br>
-                                I'm a student of the University of Arizona Fullstack Developer bootcamp. 
-                                Learning more about how web technologies work is a hobby that I want to
-                                turn into my lifelong career. I love to make websites on my spare time
-                                and experiment with different layouts and functionalities. 
-                                <br>
-                                Although my journey of learning was tough, I came out strong with knowledge
-                                I've wanted to achieve. As I advance through my career, I will adopt new ways
-                                of coding as well as new languages to help me create more. 
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-sm-12 col-md-3 col=lg-3">
+                <nav class="nav-wrapper">
+                    <a href="about.html">About Me</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="skills.html">Qualifications</a>
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/christopher-walston-a18614175/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="mailto:chrisrw300@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <a href="https://github.com/chrisrw300" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>                    
+                </nav>
             </div>
-            
-            <!--SKILL SET DIV-->
-            <div class="card m-5">
-                <div class="p-1 m-1" id="#qualifications">
-                    <h2 class="section-header">Qualifications</h2>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col col-3">
-                            <p>
-                                <button class="btn btn-primary skill-btn" type="button" data-toggle="collapse" data-target="#html5" aria-expanded="false" aria-controls="html5">HTML5</button>
-                            </p>
-                            <div class="collapse" id="html5">
-                                <div class="card card-body">
-                                  <p>HTML5 is neat!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-3">
-                            <p>
-                                <button class="btn btn-primary skill-btn" type="button" data-toggle="collapse" data-target="#css" aria-expanded="false" aria-controls="css">CSS</button>
-                            </p>
-                            <div class="collapse" id="css">
-                                <div class="card card-body">
-                                    <a href="https://getbootstrap.com/" target="_blank">BootStrap</a>
-                                    <hr>
-                                    <a href="https://materializecss.com/" target="_blank">Materialize</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-3">
-                            <p>
-                                <button class="btn btn-primary skill-btn" type="button" data-toggle="collapse" data-target="#javascript" aria-expanded="false" aria-controls="javascript">JavaScript</button>
-                            </p>
-                            <div class="collapse" id="javascript">
-                                <div class="card card-body">
-                                    <a href="https://jquery.com/" target="_blank">jQuery</a>
-                                    <hr>
-                                    <a href="https://momentjs.com/" target="_blank">Moment.js</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-3">
-                            <p>
-                                <button class="btn btn-primary skill-btn" type="button" data-toggle="collapse" data-target="#apis" aria-expanded="false" aria-controls="apis">Third-Party APIs</button>
-                            </p>
-                            <div class="collapse" id="apis">
-                                <div class="card card-body">
-                                    <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a>
-                                    <hr>
-                                    <a href="http://www.omdbapi.com/" target="_blank">OMDB</a>
-                                    <hr>
-                                    <a href="https://spoonacular.com/" target="_blank">Spoonacular</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--PORTFOLIO-->
-            <div class="card m-5">
-                <div class="p-1 m-1" id="portfolio">
-                    <h2 class="section-header">Portfolio</h2>
-                </div>
-                <div class="container-fluid">
-                    <div class="row p-3">
-                        <div class="col-md-8 shadow carousel-styles">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <h3 class="header">Munch-A-Movie</h3>
-                                        <img class="d-block" src="./assets/img/munch-a-movie.png" alt="First slide">
-                                        <div class="row">
-                                            <div class="col col-12">
-                                                <a href="https://github.com/Richardflores009/Munch-A-Movie" class="portfolio-link bg-primary text-white" target="_blank"> GitHub</a>
-                                                <a href="https://richardflores009.github.io/Munch-A-Movie/" class="portfolio-link bg-primary text-white" target="_blank">Live Link</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <h3 class="header">Weather Dashboard</h3>
-                                        <img class="d-block" src="./assets/img/weather-dashboard.png" alt="Second slide">
-                                        <div class="row">
-                                            <div class="col col-12">
-                                                <a href="https://github.com/chrisrw300/weather-dashboard" class="portfolio-link bg-primary text-white" target="_blank"> GitHub</a>
-                                                <a href="https://chrisrw300.github.io/weather-dashboard/" class="portfolio-link bg-primary text-white" target="_blank">Live Link</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <h3 class="header">Password Generator</h3>
-                                        <img class="d-block" src="./assets/img/password-generator.png" alt="Second slide">
-                                        <div class="row">
-                                            <div class="col col-12">
-                                                <a href="https://github.com/chrisrw300/password-generator" class="portfolio-link bg-primary text-white" target="_blank"> GitHub</a>
-                                                <a href="https://chrisrw300.github.io/password-generator/" class="portfolio-link bg-primary text-white" target="_blank">Live Link</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <h3 class="header">Work Day Scheduler</h3>
-                                        <img class="d-block" src="./assets/img/work-day-scheduler.png" alt="Second slide">
-                                        <div class="row">
-                                            <div class="col col-12">
-                                                <a href="https://github.com/chrisrw300/daily-scheduler" class="portfolio-link bg-primary text-white" target="_blank"> GitHub</a>
-                                                <a href="https://chrisrw300.github.io/work-day-scheduler/" class="portfolio-link bg-primary text-white" target="_blank">Live Link</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            
-
-            <!--CONTACT DIV-->
-                <footer class="page-footer">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-4"></div>
-                            <div class="col col-4" id="contact-me">
-                                <h2>Feel free to contact me:</h2>
-                                <a href="https://www.linkedin.com/in/christopher-walston-a18614175/" target="_blank"><button type="button" class="btn btn-primary btn-block m-1">LinkedIn</button></a>
-                                <a href="mailto:chrisrw300@gmail.com"><button type="button" class="btn btn-primary btn-block m-1">E-Mail</button></a>
-                            </div>
-                            <div class="col-4"></div>
-                        </div>
-                    </div>
-                    <div class="footer-copyright text-center py-3">© 2020 Walston</div>
-                </footer>
-        </main>
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </div>
     </body>
 </html>

@@ -2,110 +2,151 @@
     margin: 0;
     padding: 0;
 }
-.navbar-customize {
-    font-size: 2vw;
-    color: white;
-    transition: 0.3s;
+
+body {
+    background: #83c5be;
+    overflow: hidden;
+    font-family: 'DM Sans', sans-serif;
+}
+.jumbo-header-wrapper {
+    margin: 150px 150px;
+    border-right: thick solid black;
+}
+.jumbo-header {
+    text-align: left;
+    cursor: default;
+    font-size: 13vw;
 }
 
-.navbar-customize:hover {
-    text-decoration: none;
-    color: #007bff;
+/*home nav-wrapper*/
+.nav-wrapper {
+    margin: 300px 0;
+    text-align: left;
 }
-
-.section-header {
-    text-align: center;
-    width: 50%;
-    padding-bottom: 5px;
-    margin: 10px auto;
-    border-bottom: thin solid black;
-}
-
-.header {
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.about-me-p {
-    line-height: 200%;
-    letter-spacing: 1px;
-}
-.skill-btn {
-    width: 100%;
-}
-.collapse {
-    text-align: center;
-    padding: 5px;
-    margin: 10px;
-}
-
-/*PORTFOLIO STYLES*/
-.carousel-styles {
-    padding: 30px;
-    margin: 0 auto;
-}
-.carousel-styles img {
-    height: auto;
-    width: 100%;
-    margin: 0;
-    padding: 5px 15px;
-}
-.carousel-item {
-    text-align: center;
-}
-.carousel-control-next {
-    width: 5%;
-    height: 100%;
-    margin: auto 0;
-    background: black;
-    opacity: 0.2;
-}
-.carousel-control-next-icon {
-    color: white;
-}
-.carousel-control-next:hover {
-    background: black;
-    opacity: 0.5;
-    transition: 0.3s;
-}
-.carousel-control-next:focus {
-    background: black;
-    opacity: 0.2;
-}
-.carousel-control-prev {
-    width: 5%;
-    height: 100%;
-    margin: auto 0;
-    background: black;
-    opacity: 0.2;
-}
-.carousel-control-prev-icon {
+.nav-title a {
     color: black;
-}
-.carousel-control-prev:hover {
-    background: black;
-    opacity: 0.5;
-    transition: 0.3s;
-}
-.carousel-control-prev:focus {
-    background: black;
-    opacity: 0.2;
-}
-.portfolio-link {
-    background: lightgray;
-    margin: 15px;
-    padding: 5px 100px;
-    border-radius: 25px;
-}
-.portfolio-link:hover {
     text-decoration: none;
 }
-/*footer*/
-.page-footer {
-    background: #e9ecef;
-    padding: 5px 15px;
+.nav-title a:hover {
+    color: white;
+    transition: 0.3s;
 }
-.page-footer h2 {
+.nav-wrapper a {
+    color: black;
+    display: block;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 50px;
+    width: 75%;
+    text-decoration: none;
+}
+.nav-wrapper a:hover {
+    color: white;
+    transition: 0.3s;
+    transform: translateX(20px);
+}
+.icons {
+    margin: 25px 0;
+}
+.icons a {
+    display: inline;
+    margin: 0 10px;
+}
+.icons a:hover {
+    font-size: 50px;
+}
+/*other nav-wrapper*/
+.nav-wrapper-other  {
+    padding: 10px;
+}
+.nav-item {
+    display: inline;
+    color: black;
+    margin: 15px;
+    padding: 15px;
+    text-decoration: none;
+}
+.nav-item:hover {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.right {
+    float: right;
+}
+/*about styles*/
+.about-wrapper {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
     text-align: center;
+    border-radius: 10px;
+}
+.about-wrapper img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    border: thin solid black;
+    border-radius: 50%;
+}
+.about-wrapper p {
+    padding: 5px;
+    cursor: default;
+}
+.about-p {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+.about-icons {
+    text-align: center;
+    margin: 10px 0;
+}
+.about-icons a {
+    color: black;
+    font-size: 25px;
+    margin: 0 10px;
+}
+.about-icons a:hover {
+    color: white;
+    transition: 0.3s;
+}
+/*portfolio styles*/
+.project-1 {
+    background-image: url('../img/munch-a-movie.png');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+.project-2 {
+    background-image: url('../img/myhaus.png');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+.project-3 {
+    background-image: url('../img/password-generator.png');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+.project-4 {
+    background-image: url('../img/work-day-scheduler.png');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+.project-5 {
+    background-image: url('../img/weather-dashboard.png');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+.col-margin {
+    margin: 5px;
+}
+.project-wrapper {
+    width: 100%;
+    background: white;
+    bottom: 0;
 }
