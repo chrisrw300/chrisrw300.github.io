@@ -85,12 +85,14 @@ body {
 .right {
     float: right;
 }
+.menu-icon {
+    display: none;
+}
 /*about styles*/
 .about-wrapper {
     display: block;
     width: 50%;
     margin: 0 auto;
-    text-align: center;
     border-radius: 10px;
 }
 .about-wrapper img {
@@ -104,10 +106,14 @@ body {
     padding: 5px;
     cursor: default;
 }
+.img-caption {
+    text-align: center;
+}
 .about-p {
     width: 75%;
     margin: 0 auto;
     font-size: 25px;
+    text-align: justify;
 }
 .about-icons {
     text-align: center;
@@ -167,6 +173,24 @@ body {
 @media screen and (max-width: px) {
 
 } */
+@media screen and (max-width: 1843px) {
+    .jumbo-header-wrapper {
+        margin: 150px 100px;
+        padding: 0;
+    }
+    /*home nav-wrapper*/
+    .nav-wrapper {
+        margin: 175px 0;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .jumbo-header-wrapper {
+        margin: 150px 100px;
+        padding: 0;
+    }
+}
 
 @media screen and (max-width: 1440px) {
     .jumbo-header-wrapper {
@@ -187,7 +211,6 @@ body {
         cursor: default;
     }
     .about-p {
-        text-align: justify;
         width: 75%;
         font-size: 1.75vw;
         margin: 0 auto;
@@ -283,25 +306,55 @@ body {
     }
 }
 
+@media screen and (max-width: 980px) {
+    /*home nav-wrapper*/
+    .nav-wrapper {
+        margin: 20px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .nav-wrapper {
-        margin: 20px auto;
-        text-align: center;
-        width: 75%;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .nav-wrapper {
+        margin: 12px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .nav-wrapper {
+        margin: 7px;
     }
     .nav-wrapper a {
-        margin-top: 10px;
-        font-size: 40px;
-        width: 100%;
-        text-decoration: none;
-        border: thin solid black;
-    }
-    .icons {
-        margin: 25px 0;
+        font-size: 30px;
     }
     .icons a {
-        display: inline;
-        margin: 0 10px;
-        border: none;
+        font-size: 20px;
+    }
+    /*about page*/
+    .nav-title {
+        font-size: 10vw;
+        text-align: center;
+        margin: 0 35px;
+        padding: 5px;
+    }
+    .nav-item-sm {
+        list-style-type: none;
+        display: none;
+    }
+    .navbar-toggle {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer; 
+        color: rgba(255,255,255,0.8);
+        font-size: 24px;
+    }
+    .active {
+        display: block;
     }
 }
