@@ -85,19 +85,16 @@ body {
 .right {
     float: right;
 }
-.menu-icon {
-    display: none;
-}
 /*about styles*/
 .about-wrapper {
     display: block;
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
     border-radius: 10px;
 }
 .about-wrapper img {
     display: block;
-    width: 50%;
+    width: 25%;
     margin: 0 auto;
     border: thin solid black;
     border-radius: 50%;
@@ -292,7 +289,7 @@ body {
         width: 100%;
     }
     .about-wrapper img {
-        margin: 0 360px;
+        margin: 10px 360px;
     }
     .about-wrapper p {
         padding: 5px;
@@ -301,7 +298,7 @@ body {
     .about-p {
         text-align: justify;
         width: 75%;
-        font-size: 1.75vw;
+        font-size: 15px;
         margin: 0 auto;
     }
 }
@@ -317,11 +314,62 @@ body {
     .nav-wrapper {
         margin: 15px;
     }
+    /*other nav-wrapper*/
+    .nav-wrapper-other  {
+        padding: 10px;
+    }
+    .nav-item {
+        margin: 5px;
+    }
+
+    /*about page*/
+    .about-wrapper {
+        width: 100%;
+    }
+    .about-wrapper img {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .about-p {
+        text-align: justify;
+        width: 75%;
+        font-size: 15px;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 575px) {
     .nav-wrapper {
         margin: 12px;
+    }
+    .nav-title {
+        font-size: 30px;
+    }
+    /*other nav-wrapper*/
+    .nav-wrapper-other  {
+        padding: 10px;
+    }
+    .nav-item {
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+
+    /*about page*/
+    .about-wrapper {
+        width: 100%;
+    }
+    .about-wrapper img {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .img-caption {
+        font-size: 10px;
+    }
+    .about-p {
+        text-align: justify;
+        width: 100%;
+        font-size: 15px;
+        margin: 0 auto;
     }
 }
 
@@ -335,26 +383,98 @@ body {
     .icons a {
         font-size: 20px;
     }
-    /*about page*/
+    /*about nav*/
     .nav-title {
         font-size: 10vw;
-        text-align: center;
-        margin: 0 35px;
         padding: 5px;
     }
-    .nav-item-sm {
-        list-style-type: none;
-        display: none;
+    .nav-wrapper-other  {
+        padding: 5px;
+        text-align: center;
     }
-    .navbar-toggle {
-        position: absolute;
-        top: 10px;
-        right: 20px;
-        cursor: pointer; 
-        color: rgba(255,255,255,0.8);
-        font-size: 24px;
+    .nav-item {
+        color: var(--text-color);
+        margin: 5px 15px;
+        padding: 10px 0;
     }
-    .active {
+    .nav-item:hover {
+        transform: translateY(0);
+    }
+
+    /*about styles*/
+    .about-wrapper {
         display: block;
+        width: 100%;
+    }
+    .about-wrapper img {
+        width: 75%;
+        margin: 10px auto;
+    }
+    .about-wrapper p {
+        padding: 5px;
+    }
+    .img-caption {
+        font-size: 10px;
+    }
+    .about-p {
+        width: 100%;
+        font-size: 15px;
+    }
+    .about-icons {
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav-wrapper {
+        margin: 7px;
+    }
+    .nav-wrapper a {
+        font-size: 30px;
+    }
+    .icons a {
+        font-size: 20px;
+    }
+    /*about nav*/
+    .nav-title {
+        font-size: 10vw;
+        padding: 5px;
+    }
+    .nav-wrapper-other  {
+        padding: 5px;
+        text-align: center;
+    }
+    .nav-item {
+        color: var(--text-color);
+        margin: 5px 5px;
+        padding: 10px 0;
+    }
+    .nav-item:hover {
+        transform: translateY(0);
+    }
+
+    /*about styles*/
+    .about-wrapper {
+        display: block;
+        width: 100%;
+    }
+    .about-wrapper img {
+        width: 75%;
+        margin: 10px auto;
+    }
+    .about-wrapper p {
+        padding: 5px;
+    }
+    .img-caption {
+        font-size: 10px;
+    }
+    .about-p {
+        width: 100%;
+        font-size: 15px;
+    }
+    .about-icons {
+        text-align: center;
+        margin: 10px 0;
     }
 }
